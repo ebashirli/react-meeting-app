@@ -4,7 +4,7 @@ import Mic from "../../../components/Mic";
 
 function ParticipantCard({ user }) {
   return (
-    <div className="flex p-2 items-center justify-between py-[14px]">
+    <div className="flex p-2 items-center justify-between py-[14px] pr-4">
       <div className="flex items-center gap-2">
         <img
           src={`/users/user${user.id}.png`}

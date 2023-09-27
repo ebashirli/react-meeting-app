@@ -110,11 +110,3 @@ ul {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
-.nothing {
-  /* 600/50 */
-  border: 1px solid #2d8cff1a;
-  /* 700/50 */
-  border-radius: 100px;
-  background: #2d8cff1a;
-}

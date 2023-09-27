@@ -9,11 +9,11 @@ function TopRight() {
       <div className="grid grid-cols-2 w-full h-full bg-primary-500/50 rounded-[10px] p-1">
         <Button className="flex justify-center text-white bg-[#2D8CFF] gap-2 px-[21px] rounded-[10px]">
           <img src={user} alt="" />
-          <span>Participants</span>
+          <span className="hidden lg:block">Participants</span>
         </Button>
         <Button className="flex justify-center text-white gap-2">
           <img src={apps} alt="" />
-          <span>Apps</span>
+          <span className="hidden lg:block">Apps</span>
           <img src={ellipse} alt="" />
         </Button>
       </div>

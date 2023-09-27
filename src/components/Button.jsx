@@ -3,7 +3,7 @@ function Button({ children, className }) {
   return (
     <div
       className={
-        "flex items-center gap-2 " +
+        "flex items-center gap-2 cursor-pointer " +
         (className ? className : "px-4 py-3 bg-primary-500/50 rounded-lg ")
       }
     >
